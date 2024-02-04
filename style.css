@@ -1,0 +1,98 @@
+#logoimage{
+width:80px;
+}
+
+.navbar{
+background-color: black;
+}
+.navbar-brand{
+	color:white;
+	font-family: 'Roboto', sans-serif;
+    font-family: 'Protest Revolution', sans-serif;
+
+}
+
+.nav-link{
+color:white;
+font-family: 'Lato', sans-serif;
+font-family: 'Protest Revolution', sans-serif;
+font-family: 'Protest Riot', sans-serif;
+
+font-family: 'Roboto', sans-serif;
+}
+
+.container{
+display: flex;
+flex-direction: column;
+color:  #000000.;
+justify-content: center;
+align-items: center;
+margin-top: 20vh;
+}
+body{
+  background-image:url(https://images.unsplash.com/photo-1570051008600-b34baa49e751?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGZyZWUlMjBpbWFnZXN8ZW58MHx8MHx8fDA%3D); 
+  background-size: cover;
+  background-position: center;
+  background-position-x: center;
+  background-position-y: center;
+}
+#jumbo h1,
+h2 {
+  color: rgb( 238);
+  /* position: relative;
+  top: 50%;
+  left: 50%; */
+}
+#jumbo h2 {
+  font-family: "Ubuntu", sans-serif;
+  text-transform: uppercase;
+}
+
+.btn {
+  color: rgb( , 2);
+  background-color: silver;
+  font-weight: bolder;
+  /* position: relative;
+  top: 50%;
+  left: 50%; */
+  display: flex;
+  flex-direction: column;
+}
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+#changetext {
+  color: #ebcd0e;
+  font-size: 30px;
+}
+#changetext:after {
+  content: "";
+  animation-name: changetextanim;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+@keyframes changetextanim {
+  0% {
+    content: "India";
+    color: black;
+  }
+  25% {
+    content: "USA";
+    color: greenyellow;
+  }
+  50% {
+    content: "Swizerland";
+    color: orangered;
+  }
+  75% {
+    content: "Newzealand";
+    color: forestgreen;
+  }
+  100% {
+    content: "Australia";
+    color: brown;
+  }
+}
+
+
+
